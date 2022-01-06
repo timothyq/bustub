@@ -70,13 +70,13 @@ install_mac() {
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   fi
   # Update Homebrew.
-  brew update
+  # brew update
   # Install packages.
-  brew ls --versions cmake || brew install cmake
-  brew ls --versions coreutils || brew install coreutils
-  brew ls --versions doxygen || brew install doxygen
-  brew ls --versions git || brew install git
-  (brew ls --versions llvm | grep 8) || brew install llvm@8
+ # brew ls --versions cmake || brew install cmake
+#  brew ls --versions coreutils || brew install coreutils
+#  brew ls --versions doxygen || brew install doxygen
+#  brew ls --versions git || brew install git
+#  (brew ls --versions llvm | grep 8) || brew install llvm@8
 }
 
 install_linux() {
